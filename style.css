@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+/* utility class  */
+.flex-r {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.flex-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container{
+    padding: 15px 80px;
+    width: 100%;
+}
+
+
+
+/* Header  */
+nav{
+    height: 12vh;
+    justify-content: space-between !important;
+}
+
+.nav-logo img{
+    width: 130px;
+    cursor: pointer;
+}
+
+.nav-link a , .nav-link.b-btn{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    padding: 0px 3px;
+    margin: 0px 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.b-btn{
+    color: #ffffff;
+    border: 1px solid black;
+    background-color: #000000;
+    padding: 10px 15px;
+    border-radius: 40px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* main secton  */
+
+main{
+    background-color: #F3F3F3;
+    justify-content: space-between !important;
+    padding-top: 45px !important;
+    padding-bottom: 45px !important;
+    height: 78vh;
+}
+
+.main-text{
+    align-items: flex-start;
+    gap: 2px 0px;
+}
+.main-text .b-btn{
+    margin: 10px 0px;
+}
+
+
+.lg-head{
+    font-size: 50px;
+}
+.m-head{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.m-head span{
+    font-weight: bold;
+}
+.sm-head{
+    font-size: 15px;
+}
+
+.main-img img{
+    width: 500px;
+}
+
+
+/* footer  */
+
+footer{
+    justify-content: space-between !important;
+    height: 10vh;
+}
+.footer-icon i{
+    font-size: 16px;
+    margin: 0px 10px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 4px;
+    border-radius: 5px;
+
+}
+footer .nav-link a{
+    font-weight: 400;
+    margin: 0px 5px;
+}
