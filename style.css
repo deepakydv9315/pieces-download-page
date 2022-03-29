@@ -187,6 +187,8 @@ footer .f-ham {
   nav .nav-link {
     display: none;
   }
+
+  /* navbar ham  */
   .ham {
     display: flex;
     flex-direction: column;
@@ -227,6 +229,8 @@ footer .f-ham {
   footer .nav-link {
     display: none;
   }
+
+  /* footer ham  */
   footer .f-ham {
     display: flex;
     flex-direction: column;
